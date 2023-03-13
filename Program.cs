@@ -10,9 +10,9 @@ namespace UP
     {
         static void Main(string[] args)
         {
-            Firma firma = new Firma(); 
-            Console.WriteLine(firma.Name);
-            Console.WriteLine(firma.Area);
+            Firma firma = new Firma();
+            firma.Set_ALL("privet", 2.0, 2.0);
+            firma.Write();
             Console.ReadKey(true);
             Console.ReadKey();
             Console.ReadLine();

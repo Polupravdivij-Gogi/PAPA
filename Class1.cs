@@ -65,9 +65,16 @@ namespace UP
 
         public void Set_ALL(string n, double a, double l)
         {
-            name = n;
-            area = a;
-            lenght = l;
+            Name = n;
+            Area = a;
+            Lenght = l;
+        }
+
+        public void Write()
+        {
+            Console.WriteLine($"Адрес :'{Name}'");
+            Console.WriteLine($"Площадь :'{Area}'");
+            Console.WriteLine($"Длина :'{Lenght}'");
         }
     }
 }
