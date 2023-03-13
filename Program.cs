@@ -12,6 +12,9 @@ namespace UP
         {
             Firma firma = new Firma(); 
             Console.WriteLine(firma.Name);
+            Console.WriteLine(firma.Area);
+
+
             Console.ReadKey(true);
             Console.ReadKey();
             Console.ReadLine();
